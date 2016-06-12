@@ -1,0 +1,16 @@
+//Author: Marcin Kania, Katarzyna Herba
+
+#ifndef CMAPTEL
+#define CMAPTEL
+
+#include "maptel.h"
+
+namespace jnp1 {
+   using ::TEL_NUM_MAX_LEN;
+   using ::maptel_create;
+   using ::maptel_insert;
+   using ::maptel_erase;
+   using ::maptel_delete;
+   using ::maptel_transform;
+}
+#endif
